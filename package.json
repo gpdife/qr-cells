@@ -1,0 +1,34 @@
+{
+  "name": "qr-cells",
+  "version": "0.0.1",
+  "description": "纯javascript中的qrcode编码，没有其他依赖项.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui tdd test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpdife/qr-cells.git"
+  },
+  "keywords": [
+    "qrcode",
+    "qr",
+    "qr-cells"
+  ],
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/7..latest",
+      "firefox/3.6..latest",
+      "chrome/5..latest",
+      "safari/5.1..latest"
+    ],
+    "harness": "mocha-tdd"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1"
+  },
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
